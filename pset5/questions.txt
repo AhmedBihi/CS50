@@ -1,0 +1,29 @@
+0.  An artificial long word said to mean a lung disease caused by inhaling 
+    very fine ash and sand dust
+    
+1.  Return resource usage measures and statistics for a calling process 
+    or all the children of the calling process
+    
+2.  16
+
+3.  Because its a struct and calculate needs access to members in the struct.
+
+4.  Opens text in reading mode, reads char for char using fgetc until EOF.
+    For every c value (from fgetc) the for loop checks for 
+    different stuff (like, isdigit() and isalpha()), and saves c in word array.  
+     
+5.  Its easier to error check when reading one char at a time, fscanf could give us
+    a harder time to keep track of the number of characters we read.
+
+6.  Because the input will be strings that won't change, because they are in a dictionary.
+
+7.  I used a hash table with linked list in every index of the hashtable.
+    Every node of the linked list contain word and a node pointer.
+    
+8.  TIME IN TOTAL: 0.216.
+
+9.  I tried several hashing functions but most of them gave me segmentation faults, 
+    so I just stuck with a hashing function called lose lose from 
+    Kernighan & Ritchie (1st ed).
+
+10. Yes I need a better hashing function.

@@ -1,0 +1,37 @@
+0.  PNG:  16777216(24 bit) GIF = 16777216 (24 bit)
+    JPEG: 16777216 (24 bit) BMP: 4,294,967,296 (32 bit)
+1.  GIF
+2.  Lossy compression alters the image to reduce its file size 
+    whileist lossless compression does not.
+3.  JPEG
+4.  When a FAT file is erased the system modifies the filenames
+    first character to signal that the file has been deleted
+    and that the memory space could be recycled. The system
+    also moves all of the files FAT clusters to the hard drives
+    list of free clusters.
+5.  Overwrite all my deleted data with one or two passes of random data.
+6.  A library that provides fast and proper width integer for an implementation.
+7.  Because the standard integer types sizes are implementation defined and
+    may vary across different systems. The integers in stdint.h can also be
+    specified to a number of N of bits with uintN_t.
+8.  BYTE = 1 byte, DWORD = 4 bytes, LONG = 4 bytes, WORD = 2 bytes.
+9.  The two first bytes is a WORD thats specifies bfType (file type).
+    BM (0x4d42) is for bitmap.
+10. bfSize = size of bitmap file in bytes, 
+    biSize = size of structure in bytes
+11. It denotes if its a top-down or bottom-up device-independent
+    bitmaps (DIBs). If biHeight is negative its a top-down DIB.
+12. biBitCount specifies the number of bits per pixel, that correlates
+    to the maximum number of color in a bitmap.
+13. fopen could not create a file with that name or something similar.
+14. Because we read one rgbtriple per loop "spin", and in every loop
+    spin we write the rgbtriple to outptr.
+15. padding = (4 - (3 * 3) % 4) % 4
+    padding = (4 - 1) % 4
+    padding = 3
+16. Skipps over padding.
+17. The fseek function is used to change the file position of the stream stream. 
+    The value of whence must be one of the constants SEEK_SET, SEEK_CUR, 
+    or SEEK_END,to indicate whether the offset is relative to the beginning of the file, 
+    the current file position, or the end of the file, respectively.
+18. Gotcha! It's Rob Bowden from the shorts holding a cat!
